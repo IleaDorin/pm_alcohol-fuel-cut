@@ -2,7 +2,7 @@
 
 This firmware runs on an Arduino Uno and is part of a system that detects alcohol concentration using an MQ-3 sensor. When the measured level exceeds a defined threshold, the system activates a relay (cutting power to the fuel pump), turns on an LED, and sounds a buzzer. A separate button allows the user to mute the buzzer while keeping the other outputs active.
 
-The implementation is written in C using direct register access, without relying on Arduino libraries.
+The implementation is written in C using direct register access.
 
 ## Lab concepts used
 
